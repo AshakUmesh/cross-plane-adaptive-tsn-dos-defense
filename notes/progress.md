@@ -113,4 +113,50 @@ Date: Jun 4, 2026
    Model exchange format = ONNX
    Packet analysis tools = Wireshark + TShark
    Python ONNX Runtime sufficient for current research phase
+   
+## Day 7
+ 
+ ✓ Read Luo 2021 paper completely
+
+✓ Extracted topology
+   - 2 switches (VCU/VIU)
+   - 5 end devices
+   - 100 Mbps links
+   - 8 µs switch delay
+
+✓ Extracted TAS configuration
+   - 500 µs cycle
+   - Q7 / Q0-Q6 schedule
+   - Guard band
+   - Buffer size = 30 packets
+
+✓ Extracted traffic streams (Table 5)
+   - periods
+   - payloads
+   - priorities
+   - stream assignments
+
+✓ Extracted PSFP configuration
+   - Stream Filter
+   - Stream Gate
+   - Flow Meter
+   - CIR/CBS/EIR/EBS values
+
+✓ Extracted attack scenarios
+   - Wrong Timing
+   - DoS Attack
+   - Undefined Traffic
+   - MSDU Violation
+
+✓ Extracted baseline results (Table 9)
+
+✓ Created topology diagram
+
+✓ Created luo2021_notes.md
+
+✓ Defined Phase-1 reproduction target
+
+✓ Identified thesis research gap
+
+
 
