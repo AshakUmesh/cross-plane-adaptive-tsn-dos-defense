@@ -1,0 +1,4 @@
+74:config *.viuSwitch.bridging.streamFilter.ingress.classifier.mapping "{\"av1\": 0}"
+75:config *.vcuSwitch.bridging.streamFilter.ingress.classifier.mapping "{\"av1\": 0}"
+566:par Luo2021Network.viuSwitch.bridging.streamFilter.ingress.classifier mapping "{av1: 0}"
+25792:par Luo2021Network.vcuSwitch.bridging.streamFilter.ingress.classifier mapping "{av1: 0}"

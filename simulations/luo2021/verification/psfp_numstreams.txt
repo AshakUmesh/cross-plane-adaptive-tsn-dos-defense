@@ -1,0 +1,4 @@
+72:config *.viuSwitch.bridging.streamFilter.ingress.numStreams 1
+73:config *.vcuSwitch.bridging.streamFilter.ingress.numStreams 1
+1420:par Luo2021Network.viuSwitch.bridging.streamFilter.ingress numStreams 1
+26646:par Luo2021Network.vcuSwitch.bridging.streamFilter.ingress numStreams 1

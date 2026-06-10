@@ -1,0 +1,7 @@
+results/
+out/
+*.vec
+*.vci
+*.sca
+*.pcap
+*.tar.gz
