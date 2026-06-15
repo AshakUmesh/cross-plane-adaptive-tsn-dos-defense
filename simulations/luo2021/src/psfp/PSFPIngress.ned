@@ -1,6 +1,8 @@
 package src.psfp;
 
-module PSFPIngress
+//import inet.queueing.contract.IPacketFilter;
+
+module PSFPIngress 
 {
     parameters:
         int streamId = default(1);
