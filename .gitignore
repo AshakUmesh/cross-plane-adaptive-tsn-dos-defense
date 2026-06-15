@@ -5,3 +5,25 @@ out/
 *.sca
 *.pcap
 *.tar.gz
+
+# OMNeT++
+*.vec
+*.vci
+*.sca
+*.pcap
+results/
+out/
+
+# editor files
+*.swp
+
+# binaries
+simulations/luo2021/luo2021
+
+# local backups
+backup_ned/
+project_backups/
+simulations/luo2021/backups/
+*.bak
+*.backup
+*.broken

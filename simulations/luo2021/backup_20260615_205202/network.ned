@@ -9,7 +9,7 @@ network Luo2021Network
         }
         viuSwitch: TsnSwitch {
             parameters:
-                numEthInterfaces = 5;
+                numEthInterfaces = 6;
         }
 
         vcuSwitch: TsnSwitch {
@@ -22,6 +22,9 @@ network Luo2021Network
         radarNode: TsnDevice;
         zonalHost: TsnDevice;
         centralHost: TsnDevice;
+        
+         attackNode: TsnDevice;
+       
 
     connections:
         av1.ethg++ <--> { delay = 0.5us; datarate = 100Mbps; } <--> viuSwitch.ethg++;
@@ -32,4 +35,8 @@ network Luo2021Network
         viuSwitch.ethg++ <--> { delay = 0.5us; datarate = 100Mbps; } <--> vcuSwitch.ethg++;
 
         centralHost.ethg++ <--> { delay = 0.5us; datarate = 100Mbps; } <--> vcuSwitch.ethg++;
+       
+        attackNode.ethg++ <--> { delay = 0.5us; datarate = 100Mbps; } <--> viuSwitch.ethg++;
+        
+        
 }
