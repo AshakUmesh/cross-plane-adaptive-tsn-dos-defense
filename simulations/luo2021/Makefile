@@ -34,6 +34,7 @@ O = $(PROJECT_OUTPUT_DIR)/$(CONFIGNAME)/$(PROJECTRELATIVE_PATH)
 OBJS = \
     $O/StreamFilter.o \
     $O/src/attacks/FrequencyAttack.o \
+    $O/src/attacks/GCLPhaseAttack.o \
     $O/src/attacks/OversizeAttack.o \
     $O/src/psfp/FlowMeter.o \
     $O/src/psfp/StreamFilter.o \

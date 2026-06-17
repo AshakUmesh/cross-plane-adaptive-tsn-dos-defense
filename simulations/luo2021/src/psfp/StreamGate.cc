@@ -16,8 +16,13 @@ void StreamGate::initialize()
 
     // Test GCL:
     // open:100us,closed:400us
-    gclEntries.push_back({true, SimTime(100, SIMTIME_US)});
-    gclEntries.push_back({false, SimTime(400, SIMTIME_US)});
+    //gclEntries.push_back({true, SimTime(100, SIMTIME_US)});
+    //gclEntries.push_back({false, SimTime(400, SIMTIME_US)});
+    gclEntries.clear();
+
+    gclEntries.push_back({false, SimTime(125, SIMTIME_US)}); // 0-125us CLOSED
+    gclEntries.push_back({true,  SimTime(325, SIMTIME_US)}); // 125-450us OPEN
+    gclEntries.push_back({false, SimTime(50,  SIMTIME_US)}); // 450-500us CLOSED
 }
 
 bool StreamGate::isGateOpen()
