@@ -1,0 +1,2 @@
+scalar Luo2021Network.viuSwitch.bridging.streamFilter.ingress.gateFilter[4] droppedPackets:count 0
+scalar Luo2021Network.vcuSwitch.bridging.streamFilter.ingress.gateFilter[4] droppedPackets:count 0
