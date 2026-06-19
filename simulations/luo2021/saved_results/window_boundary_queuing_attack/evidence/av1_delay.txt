@@ -1,0 +1,16 @@
+statistic Luo2021Network.centralHost.app[0].sink packetLifeTime:histogram
+field count 1267
+field mean 0.01837546775059195
+field stddev 0.010165512687193195
+field min 0.00025222
+field max 0.035951119999999996
+field sum 23.28171764
+field sqrsum 0.5586379142851607
+attr interpolationmode none
+attr recordingmode histogram
+attr source packetLifeTime(packetPushed)
+attr title "packet life time"
+attr unit s
+bin	-inf	0
+bin	0	6
+bin	5e-04	6
