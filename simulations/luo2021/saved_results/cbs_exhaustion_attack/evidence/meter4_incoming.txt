@@ -1,0 +1,2 @@
+scalar Luo2021Network.viuSwitch.bridging.streamFilter.ingress.meter[4] incomingPackets:count 2997
+scalar Luo2021Network.vcuSwitch.bridging.streamFilter.ingress.meter[4] incomingPackets:count 747
