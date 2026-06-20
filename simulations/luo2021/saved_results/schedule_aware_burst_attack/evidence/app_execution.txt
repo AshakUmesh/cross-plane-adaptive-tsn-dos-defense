@@ -1,0 +1,2 @@
+config *.attackNode.app[0].typename src.attacks.ScheduleAwareBurstApp
+par Luo2021Network.attackNode.app[0] typename "\"src.attacks.ScheduleAwareBurstApp\""
