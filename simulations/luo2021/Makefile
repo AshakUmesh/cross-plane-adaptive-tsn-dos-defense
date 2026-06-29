@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for luo2021
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep
+#  opp_makemake -f --deep -I/home/ashakumesh/research/omnetpp-6.4.0/samples/inet/src -L/home/ashakumesh/research/omnetpp-6.4.0/samples/inet/src -lINET
 #
 
 # Name of target to be created (-o option)
@@ -17,13 +17,13 @@ USERIF_LIBS = $(ALL_ENV_LIBS) # that is, $(QTENV_LIBS) $(CMDENV_LIBS)
 #USERIF_LIBS = $(QTENV_LIBS)
 
 # C++ include paths (with -I)
-INCLUDE_PATH =
+INCLUDE_PATH = -I/home/ashakumesh/research/omnetpp-6.4.0/samples/inet/src
 
 # Additional object and library files to link with
 EXTRA_OBJS =
 
 # Additional libraries (-L, -l options)
-LIBS =
+LIBS = $(LDFLAG_LIBPATH)/home/ashakumesh/research/omnetpp-6.4.0/samples/inet/src  -lINET
 
 # Output directory
 PROJECT_OUTPUT_DIR = out
@@ -35,7 +35,10 @@ OBJS = \
     $O/StreamFilter.o \
     $O/src/attacks/FrequencyAttack.o \
     $O/src/attacks/GCLPhaseAttack.o \
+    $O/src/attacks/LowAndSlowDriftApp.o \
     $O/src/attacks/OversizeAttack.o \
+    $O/src/attacks/ScheduleAwareBurstApp.o \
+    $O/src/attacks/ThresholdEvasionAttack.o \
     $O/src/psfp/FlowMeter.o \
     $O/src/psfp/StreamFilter.o \
     $O/src/psfp/StreamGate.o \
@@ -66,6 +69,9 @@ include $(CONFIGFILE)
 
 # Simulation kernel and user interface libraries
 OMNETPP_LIBS = $(OPPMAIN_LIB) $(USERIF_LIBS) $(KERNEL_LIBS) $(SYS_LIBS)
+ifneq ($(PLATFORM),win32)
+LIBS += -Wl,-rpath,$(abspath /home/ashakumesh/research/omnetpp-6.4.0/samples/inet/src)
+endif
 
 COPTS = $(CFLAGS) $(IMPORT_DEFINES)  $(INCLUDE_PATH) -I$(OMNETPP_INCL_DIR)
 MSGCOPTS = $(INCLUDE_PATH)
