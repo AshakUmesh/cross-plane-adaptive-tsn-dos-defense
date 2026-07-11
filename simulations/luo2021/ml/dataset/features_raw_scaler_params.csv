@@ -1,0 +1,16 @@
+feature,benign_mean,benign_std
+mean_IAT_us,88.73877899111237,0.22857987506440822
+IAT_variance_us2,4754.630831840042,56.453410421531025
+mean_frame_size_B,500.0,0.0
+burst_length,3.0,0.0
+frame_count,111.0,0.6324555320336759
+phase_offset_mean_us,306.9959917387898,0.37054385141929025
+phase_offset_std_us,93.02873646418782,0.6040092817550687
+gate_drop_rate,0.0,0.0
+meter_red_rate,0.0,0.0
+queue_depth_max,2.0,0.0
+sync_interval_mean,125000.0,0.0
+sync_interval_var,0.0,0.0
+correction_field_delta,0.0,0.0
+announce_rate,1.0,0.0
+source_count,1.0,0.0

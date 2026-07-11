@@ -1,0 +1,13 @@
+config,n_windows,detected,TPR_pct
+AggregateLoadAttack,14,0,0.0
+CBSBoundaryAttack,14,0,0.0
+CBSExhaustionAttack,14,0,0.0
+GCLPhaseAttack,14,0,0.0
+GateBoundaryProximityAttack,14,0,0.0
+LowAndSlowDriftAttack,14,0,0.0
+QueueBuildingAttack,14,0,0.0
+ScheduleAwareBurstAttack,14,0,0.0
+SustainedNearCIRAttack,14,0,0.0
+ThresholdEvasionAttack,14,0,0.0
+WindowBoundaryQueuingAttack,14,0,0.0
+OVERALL,154,0,0.0

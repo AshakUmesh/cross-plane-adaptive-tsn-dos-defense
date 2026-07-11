@@ -1,0 +1,26 @@
+{
+  "feature_order": [
+    "mean_IAT",
+    "IAT_variance",
+    "mean_frame_size",
+    "burst_length",
+    "count"
+  ],
+  "train_streams": [
+    "zonalHost"
+  ],
+  "score_streams": [
+    "zonalHost"
+  ],
+  "score_config_filter": null,
+  "contamination": 0.01,
+  "n_estimators": 100,
+  "random_state": 42,
+  "split_seed": 42,
+  "test_split_fraction": 0.3,
+  "n_benign_train": 196,
+  "n_benign_heldout_test": 84,
+  "fpr_insample_pct": 1.02,
+  "fpr_heldout_pct": 0.0,
+  "isoforest_offset_": -0.6775722726791568
+}

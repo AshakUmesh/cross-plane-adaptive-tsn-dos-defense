@@ -1,0 +1,22 @@
+ISOLATION FOREST -- FROZEN EXPERIMENT SUMMARY
+Train streams: ['av2']
+Score streams: ['av2']
+Score config filter: None
+Contamination: 0.01
+Benign train / held-out test: 196 / 84
+FPR (in-sample, optimistic): 1.02%
+FPR (held-out, REPORT THIS): 2.38%
+
+Config                             n   Det    TPR%
+AggregateLoadAttack               14     2   14.29
+CBSBoundaryAttack                 14     2   14.29
+CBSExhaustionAttack               14     2   14.29
+GCLPhaseAttack                    14     2   14.29
+GateBoundaryProximityAttack       14     2   14.29
+LowAndSlowDriftAttack             14     2   14.29
+QueueBuildingAttack               14     2   14.29
+ScheduleAwareBurstAttack          14     2   14.29
+SustainedNearCIRAttack            14     2   14.29
+ThresholdEvasionAttack            14     2   14.29
+WindowBoundaryQueuingAttack       14     2   14.29
+OVERALL                          154    22   14.29

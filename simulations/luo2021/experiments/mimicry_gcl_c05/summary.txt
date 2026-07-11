@@ -1,0 +1,12 @@
+ISOLATION FOREST -- FROZEN EXPERIMENT SUMMARY
+Train streams: ['radarNode']
+Score streams: ['attackNode']
+Score config filter: GateBoundaryProximityAttack
+Contamination: 0.05
+Benign train / held-out test: 196 / 84
+FPR (in-sample, optimistic): 5.10%
+FPR (held-out, REPORT THIS): 7.14%
+
+Config                             n   Det    TPR%
+GateBoundaryProximityAttack       14    14  100.00
+OVERALL                           14    14  100.00
