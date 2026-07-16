@@ -1,0 +1,52 @@
+{
+  "streams": [
+    "av1",
+    "av2",
+    "radarNode",
+    "zonalHost",
+    "attackNode"
+  ],
+  "n_estimators": 200,
+  "test_split_fraction": 0.3,
+  "n_train": 1303,
+  "n_test": 559,
+  "held_out_test_accuracy": 0.6386,
+  "cv_folds": 5,
+  "cv_mean_accuracy": 0.6348,
+  "cv_std_accuracy": 0.0069,
+  "feature_importances": {
+    "mean_IAT": 0.1724201957644263,
+    "IAT_variance": 0.5752053061756963,
+    "mean_frame_size": 0.06645959536484021,
+    "burst_length": 0.0274472952337516,
+    "count": 0.15846760746128558
+  },
+  "label_names": {
+    "0": "Benign",
+    "1": "GCLPhaseAttack",
+    "2": "ThresholdEvasionAttack",
+    "3": "SustainedNearCIRAttack",
+    "4": "CBSExhaustionAttack",
+    "5": "CBSBoundaryAttack",
+    "6": "LowAndSlowDriftAttack",
+    "7": "ScheduleAwareBurstAttack",
+    "8": "WindowBoundaryQueuingAttack",
+    "9": "QueueBuildingAttack",
+    "10": "AggregateLoadAttack",
+    "11": "GateBoundaryProximityAttack"
+  },
+  "class_distribution": {
+    "Benign": 1120,
+    "GCLPhaseAttack": 70,
+    "ThresholdEvasionAttack": 70,
+    "SustainedNearCIRAttack": 70,
+    "CBSExhaustionAttack": 70,
+    "CBSBoundaryAttack": 70,
+    "LowAndSlowDriftAttack": 56,
+    "ScheduleAwareBurstAttack": 56,
+    "WindowBoundaryQueuingAttack": 70,
+    "QueueBuildingAttack": 70,
+    "AggregateLoadAttack": 70,
+    "GateBoundaryProximityAttack": 70
+  }
+}

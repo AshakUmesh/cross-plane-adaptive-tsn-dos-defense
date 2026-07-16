@@ -1,0 +1,14 @@
+{
+  "selected_features": [
+    "IAT_variance",
+    "mean_IAT",
+    "count"
+  ],
+  "importances": {
+    "mean_IAT": 0.1724201957644263,
+    "IAT_variance": 0.5752053061756963,
+    "mean_frame_size": 0.06645959536484021,
+    "burst_length": 0.0274472952337516,
+    "count": 0.15846760746128558
+  }
+}

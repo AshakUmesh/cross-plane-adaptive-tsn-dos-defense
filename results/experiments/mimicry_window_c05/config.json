@@ -1,0 +1,26 @@
+{
+  "feature_order": [
+    "mean_IAT",
+    "IAT_variance",
+    "mean_frame_size",
+    "burst_length",
+    "count"
+  ],
+  "train_streams": [
+    "radarNode"
+  ],
+  "score_streams": [
+    "attackNode"
+  ],
+  "score_config_filter": "WindowBoundaryQueuingAttack",
+  "contamination": 0.05,
+  "n_estimators": 100,
+  "random_state": 42,
+  "split_seed": 42,
+  "test_split_fraction": 0.3,
+  "n_benign_train": 196,
+  "n_benign_heldout_test": 84,
+  "fpr_insample_pct": 5.102,
+  "fpr_heldout_pct": 7.143,
+  "isoforest_offset_": -0.59607413847046
+}

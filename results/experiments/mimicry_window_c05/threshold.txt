@@ -1,0 +1,3 @@
+isoforest_offset_=-0.59607413847046
+contamination=0.05
+(scoring rule: score_samples(x) < offset_  =>  flagged anomalous)

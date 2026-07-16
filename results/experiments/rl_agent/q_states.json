@@ -1,0 +1,14 @@
+[
+  "AggregateLoadAttack",
+  "BenignDiverse",
+  "CBSBoundaryAttack",
+  "CBSExhaustionAttack",
+  "GCLPhaseAttack",
+  "GateBoundaryProximityAttack",
+  "LowAndSlowDriftAttack",
+  "QueueBuildingAttack",
+  "ScheduleAwareBurstAttack",
+  "SustainedNearCIRAttack",
+  "ThresholdEvasionAttack",
+  "WindowBoundaryQueuingAttack"
+]

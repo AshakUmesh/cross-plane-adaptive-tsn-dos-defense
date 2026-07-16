@@ -1,0 +1,12 @@
+RANDOM FOREST -- FROZEN EXPERIMENT SUMMARY
+Streams: ['av1', 'av2', 'radarNode', 'zonalHost', 'attackNode']
+Train/Test: 1744/748
+Held-out test accuracy: 50.00%
+5-fold CV accuracy: 50.3% +/- 0.7%
+
+Feature importances:
+  IAT_variance         0.5338
+  count                0.1907
+  mean_IAT             0.1785
+  mean_frame_size      0.0620
+  burst_length         0.0350

@@ -1,0 +1,111 @@
+# ============================================================
+# OMNeT++ / INET simulation outputs — large, regenerable, never commit
+# ============================================================
+results/*.vec
+results/*.sca
+results/*.vci
+saved_results/
+*.vec
+*.sca
+*.vci
+*.anf
+
+# OMNeT++ build artifacts
+out/
+**/out/
+*.o
+*.o.d
+*.obj
+*.exe
+Makefile
+!Makefile.in
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+*.bak
+
+# Trained model binaries (regenerable from training scripts)
+*.pkl
+*.joblib
+*.npy
+
+# ============================================================
+# Node (only relevant if pptx/docx generation scripts are kept in-repo)
+# ============================================================
+node_modules/
+npm-debug.log*
+
+# ============================================================
+# OS / editor junk
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ============================================================
+# Superseded / duplicate pipeline trees (kept in the private research
+# repo only -- the curated ml/pipeline/ and adaptive_psfp/ are canonical)
+# ============================================================
+ml/dataset/
+ml/models/
+ml/results/
+ml/scripts/
+
+# ============================================================
+# Backups, archives, and personal notes (private research repo only)
+# ============================================================
+backup_ned/
+project_backups/
+backup/
+archive_configs/
+experimental_backup/
+final_backups_backup/
+notes/
+
+# ============================================================
+# Third-party reference material -- cite, don't redistribute
+# ============================================================
+thesis/*.pdf
+docs/*.pdf
+
+# ============================================================
+# Data — keep ONLY the two final, documented feature CSVs
+# (see data/README.md). Everything else was an exploratory/debug
+# variant produced during development.
+# ============================================================
+*_BACKUP.csv
+*_backup.csv
+*_retrained.csv
+*_50ms.csv
+*_100ms.csv
+*_scaled.csv
+*_adaptive.csv
+combined_15.csv
+combined_15_full.csv
+combined_features.csv
+schedule_features*.csv
+timesync_*.csv
+scheduleburst_features.csv
+lowandslow_features.csv
+new_closedloop_features*.csv
+test_extraction_closedloop.csv
+adaptive_results*.csv
+real_rewards.csv
+
+# Experiment result binaries (keep the small .json/.txt reports; drop the rest)
+experiments/**/combined_features.csv
+experiments/**/*.pkl
+experiments/**/*.npy

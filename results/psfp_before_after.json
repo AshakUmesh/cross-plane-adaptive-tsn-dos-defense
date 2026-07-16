@@ -1,0 +1,74 @@
+[
+  {
+    "config": "AggregateLoadAttack",
+    "measured_rate_mbps": 21.16,
+    "action": "reduce_cir_0.5",
+    "new_cir_mbps": 11.0,
+    "before": "PASSED",
+    "after": "BLOCKED"
+  },
+  {
+    "config": "CBSBoundaryAttack",
+    "measured_rate_mbps": 76.945,
+    "action": "reduce_cbs_0.5",
+    "new_cir_mbps": 22.0,
+    "before": "BLOCKED",
+    "after": "BLOCKED"
+  },
+  {
+    "config": "CBSExhaustionAttack",
+    "measured_rate_mbps": 84.64,
+    "action": "tighten_gate_10",
+    "new_cir_mbps": 22.0,
+    "before": "BLOCKED",
+    "after": "BLOCKED"
+  },
+  {
+    "config": "GCLPhaseAttack",
+    "measured_rate_mbps": 105.8,
+    "action": "tighten_gate_10",
+    "new_cir_mbps": 22.0,
+    "before": "BLOCKED",
+    "after": "BLOCKED"
+  },
+  {
+    "config": "GateBoundaryProximityAttack",
+    "measured_rate_mbps": 8.464,
+    "action": "tighten_gate_15",
+    "new_cir_mbps": 22.0,
+    "before": "PASSED",
+    "after": "PASSED"
+  },
+  {
+    "config": "QueueBuildingAttack",
+    "measured_rate_mbps": 21.16,
+    "action": "reduce_cir_0.6",
+    "new_cir_mbps": 13.2,
+    "before": "PASSED",
+    "after": "BLOCKED"
+  },
+  {
+    "config": "SustainedNearCIRAttack",
+    "measured_rate_mbps": 21.927,
+    "action": "reduce_cir_0.5",
+    "new_cir_mbps": 11.0,
+    "before": "PASSED",
+    "after": "BLOCKED"
+  },
+  {
+    "config": "ThresholdEvasionAttack",
+    "measured_rate_mbps": 21.927,
+    "action": "reduce_cir_0.5",
+    "new_cir_mbps": 11.0,
+    "before": "PASSED",
+    "after": "BLOCKED"
+  },
+  {
+    "config": "WindowBoundaryQueuingAttack",
+    "measured_rate_mbps": 8.464,
+    "action": "tighten_gate_15",
+    "new_cir_mbps": 22.0,
+    "before": "PASSED",
+    "after": "PASSED"
+  }
+]

@@ -1,0 +1,14 @@
+Attack                          Rate(Mbps) Action             New CIR     BEFORE      AFTER
+--------------------------------------------------------------------------------------------
+AggregateLoadAttack                  21.16 reduce_cir_0.5      11.00M     PASSED    BLOCKED
+CBSBoundaryAttack                    76.95 reduce_cbs_0.5      22.00M    BLOCKED    BLOCKED
+CBSExhaustionAttack                  84.64 reduce_cbs_0.5      22.00M    BLOCKED    BLOCKED
+GCLPhaseAttack                      105.80 tighten_gate_10     22.00M    BLOCKED    BLOCKED
+GateBoundaryProximityAttack           8.46 tighten_gate_15     22.00M     PASSED     PASSED
+QueueBuildingAttack                  21.16 reduce_cir_0.6      13.20M     PASSED    BLOCKED
+SustainedNearCIRAttack               21.93 reduce_cir_0.5      11.00M     PASSED    BLOCKED
+ThresholdEvasionAttack               21.93 reduce_cir_0.5      11.00M     PASSED    BLOCKED
+WindowBoundaryQueuingAttack           8.46 tighten_gate_15     22.00M     PASSED     PASSED
+
+4/9 attacks that PASSED under static PSFP are BLOCKED after the agent's action is really applied.
+Saved: psfp_before_after.json

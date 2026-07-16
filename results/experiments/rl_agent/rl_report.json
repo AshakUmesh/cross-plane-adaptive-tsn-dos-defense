@@ -1,0 +1,49 @@
+{
+  "episodes": 2000,
+  "states": [
+    "AggregateLoadAttack",
+    "BenignDiverse",
+    "CBSBoundaryAttack",
+    "CBSExhaustionAttack",
+    "GCLPhaseAttack",
+    "GateBoundaryProximityAttack",
+    "LowAndSlowDriftAttack",
+    "QueueBuildingAttack",
+    "ScheduleAwareBurstAttack",
+    "SustainedNearCIRAttack",
+    "ThresholdEvasionAttack",
+    "WindowBoundaryQueuingAttack"
+  ],
+  "actions": [
+    "no_op",
+    "tighten_gate_10",
+    "tighten_gate_15",
+    "reduce_cir_0.5",
+    "reduce_cir_0.6",
+    "reduce_cbs_0.5"
+  ],
+  "learned_vs_expert_agreement": 0.8333333333333334,
+  "eval_agreement_under_rf_noise": 0.31536388140161725,
+  "convergence_by_block": [
+    3.261314705882352,
+    3.2057036764705873,
+    3.507430882352941,
+    3.716361029411766,
+    3.5065308823529415,
+    3.520493382352941,
+    3.9401852941176485,
+    4.13200955882353,
+    3.9927257352941194,
+    3.7610176470588237,
+    3.9913419117647067,
+    4.736820588235297,
+    4.411439705882356,
+    4.384996323529413,
+    4.910250735294119,
+    5.01193161764706,
+    4.602288235294119,
+    4.780120588235294,
+    4.683396323529414,
+    4.426172058823532
+  ]
+}

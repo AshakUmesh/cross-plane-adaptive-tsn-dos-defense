@@ -1,0 +1,14 @@
+[
+  {
+    "ground_truth": "LowAndSlowDriftAttack",
+    "predicted": null,
+    "action": "no_op",
+    "agreement": null
+  },
+  {
+    "ground_truth": "ScheduleAwareBurstAttack",
+    "predicted": null,
+    "action": "no_op",
+    "agreement": null
+  }
+]

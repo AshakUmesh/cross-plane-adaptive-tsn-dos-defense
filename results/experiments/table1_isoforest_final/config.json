@@ -1,0 +1,34 @@
+{
+  "feature_order": [
+    "mean_IAT",
+    "IAT_variance",
+    "mean_frame_size",
+    "burst_length",
+    "count"
+  ],
+  "train_streams": [
+    "av1",
+    "av2",
+    "radarNode",
+    "zonalHost",
+    "attackNode"
+  ],
+  "score_streams": [
+    "av1",
+    "av2",
+    "radarNode",
+    "zonalHost",
+    "attackNode"
+  ],
+  "score_config_filter": null,
+  "contamination": 0.01,
+  "n_estimators": 100,
+  "random_state": 42,
+  "split_seed": 42,
+  "test_split_fraction": 0.3,
+  "n_benign_train": 840,
+  "n_benign_heldout_test": 360,
+  "fpr_insample_pct": 1.071,
+  "fpr_heldout_pct": 0.833,
+  "isoforest_offset_": -0.6491846226794017
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "attack": "ThresholdEvasionAttack",
+    "action": "reduce_cir",
+    "static": 746,
+    "adaptive": 377,
+    "reduction_pct": 49.5,
+    "reward": 3.4901
+  }
+]
